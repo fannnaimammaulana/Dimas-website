@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Affan dan Dimas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eaeaea;
+            text-align: center;
+            padding: 20px;
+        }
+        .box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 650px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        button {
+            padding: 10px 15px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h1>Halo Ini Website Affan Dan Dimas</h1>
+
+    <img src="https://placekitten.com/400/300" alt="foto absurd">
+
+    <p>Website ini hanya untuk praktek tugas HTML sederhana.</p>
+    <p>Dibuat oleh: Affan & Dimas</p>
+
+    <button onclick="sapa()">Klik Kejutan</button>
+
+    <p id="hasil"></p>
+</div>
+
+<script>
+function sapa() {
+    document.getElementById('hasil').innerText = "Website absurd tapi tetap keren 😆";
+}
+</script>
+
+</body>
+</html>
